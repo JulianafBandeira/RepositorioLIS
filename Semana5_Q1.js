@@ -1,7 +1,8 @@
-function createList(valor,mensagem) {
+function createList(vlr,msg) {
+    
     let qtd = window.prompt("Qtd de listas:");
 
-    let nm = window.prompt("nome da lista: ");
+    let nm = window.prompt("n lista: ");
 
     for(i = 0; i < qtd; i++) {
 
